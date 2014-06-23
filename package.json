@@ -1,0 +1,29 @@
+{
+	"name": "rdf-jsonify",
+	"version": "0.1.0",
+	"description": "RESTful interface for RDF-Ext Stores",
+	"main": "rdf-jsonify.js",
+	"scripts": {
+		"test": "node_modules/.bin/mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/bergos/rdf-jsonify.git"
+	},
+	"keywords": [
+		"RDF",
+		"JSON",
+		"JSONify"
+	],
+	"author": "Thomas Bergwinkl",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bergos/rdf-jsonify/issues"
+	},
+	"homepage": "https://github.com/bergos/rdf-jsonify",
+	"dependencies": {
+		"es6-promise": ">=0.1.1",
+		"jsonld": ">=0.1.26"
+	},
+	"readmeFilename": "README.md"
+}
